@@ -1,0 +1,157 @@
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.topnav {
+    border: 1px solid grey;
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+.topnav a.active{
+    background-color:indigo;
+}
+
+.topnav a:hover{
+    color: #000;
+    background-color: rgb(233, 235, 236);
+}
+
+a{
+    float: right;
+    padding: 12px ;
+    font-size: 17px;
+    font-weight: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+img{
+    width: 550px;
+    height: 300px;
+    margin-top: 90px;
+    object-fit: contain;
+    
+
+}
+.layout{
+    margin-right: 20px;
+    margin-left: 40px;
+    
+}
+.position{
+    width: 720px;
+    /* border: 2px solid black; */
+    float: right;
+    margin-right: 20px;
+    margin-top: 100px;
+    position:inherit;
+    padding: 10px;
+    height: 500px;
+}
+ .check{
+     /* border: 2px solid black; */
+     width: 560px;
+     height: 900px;
+     position: fixed;
+     margin-right: 10px;
+     padding-top:23px ;
+     overflow:visible;
+ }
+ body{
+     background-color:rgb(233, 235, 236);
+ }
+ h1{
+     font-family: poppins;
+ }
+ .text{
+     padding-top: 20px;
+     font-style: italic;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 700;
+ }
+ /* button{
+     width: 100px;
+     background-color: hotpink;
+ } */
+ .btn a{
+     margin-top: 30px;
+     width: 170px;
+     height: 40px;
+     border: 1px solid black;
+     padding-top: 10px;
+     padding-left: 35px;
+     padding-right: 15px;
+     font-size: 18px;
+     position: fixed;
+     border-radius: 15px;
+     
+   
+ }
+ .btn1 a{
+    margin-top: 30px;
+    margin-left: 2px;
+    margin-right: 330px;
+    width: 170px;
+    height: 40px;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-left: 42px;
+    padding-right: 20px;
+    font-size: 18px;
+    float:right;
+    position: inherit;
+    background-color: rgb(1, 1, 1);
+    color:white;
+    border-radius: 15px;
+}
+.grid-layout{
+   
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+a:hover{
+    background-color:red;
+    color: white;
+    cursor: default;
+}
+a:hover{
+    background-color:red;
+    cursor: default;
+}
+.colour{
+    color: black;
+}
+.size{
+    width:180px;
+    height: 180px;
+    object-fit: contain;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+}
+ .move{ 
+    /* border:0.5px dotted red;  */
+    width: 560px;
+    height: 180px;
+    overflow: hidden;
+    
+    /* padding: 4px; */
+    
+    
+    
+
+    
+}
+p{
+    font-size: 16px;
+    word-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    
+}
