@@ -3,6 +3,13 @@
   box-sizing: border-box;
   padding: 0;
 }
+.nav{
+       padding:5px;
+       font-size: 28px;
+       font-weight: 25px;
+       padding-left: 45px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .topnav {
   border: 1px solid grey;
@@ -69,6 +76,11 @@ h1 {
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
+ 
+}
+.discount{
+  text-decoration: line-through;
+  color: grey;
 }
 
 .btn a {
@@ -130,8 +142,12 @@ a:hover {
   overflow: hidden;
 }
 p {
-  font-size: 16px;
-  word-spacing: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  word-spacing: 2px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   padding: 10px;
+  padding-top:10px;
+}
+h2{
+  padding-top: 10px;
 }
